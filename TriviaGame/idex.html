@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="assets/javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">.
+    <title>Trivial Trivia</title>
+</head>
+
+<body>
+
+    <div id=questionBox>
+        <form id="game" name="game">
+        <h1 class="red"> Trivial Trivia!</h1>
+        
+
+        <p>Where would you find Jay and Silent Bob? </p>
+        <input type="radio" name="q1" value="quickStop">Quick Stop <br>
+        <input type="radio" name="q1" value="watchtower">Justice League Watch Tower <br>
+        <input type="radio" name="q1" value="church">Church <br>
+
+        <p>Big Ben is a what?</p>
+        <input type="radio" name="q2" value="fatGuy">Fat Guy <br>
+        <input type="radio" name="q2" value="club">Club <br>
+        <input type="radio" name="q2" value="videoGame">Video Game <br>
+        <input type="radio" name="q2" value="clock">Clock <br>
+
+        <p> The United States of America is what directopn from Canada? </p>
+        <input type="radio" name="q3" value="north">North <br>
+        <input type="radio" name="q3" value="east">East <br>
+        <input type="radio" name="q3" value="south">South <br>
+        <input type="radio" name="q3" value="west">West <br>
+
+        <p> Click "3" to get the answer right. </p>
+        <input type="radio" name="q4" value="three">three <br>
+        <input type="radio" name="q4" value="tpo">2 + 1 <br>
+        <input type="radio" name="q4" value="33">33 <br>
+        <input type="radio" name="q4" value="3">3 <br>
+
+
+    <input id="button" type="button" value= "Finished" onclick="check();">
+        
+
+
+</form>
+    </div>
+
+    <div id="doneClick">
+
+        <p id = "message"> </p>
+        <p id = "numberCorrect"> </p>
+    </div>
+</form>
+</body>
+
+</html>

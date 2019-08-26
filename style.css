@@ -1,0 +1,19 @@
+body {
+    background-color: purple;
+}
+
+.red {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    color:purple;
+}
+
+ div {
+    background-color:white;
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border:none;
+    
+
+}
